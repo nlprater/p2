@@ -14,6 +14,7 @@ require 'pathname'
 require 'sqlite3'
 require 'active_record'
 require 'logger'
+require 'bcrypt'
 
 require 'sinatra'
 require "sinatra/reloader" if development?
